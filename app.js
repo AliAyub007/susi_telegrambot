@@ -82,7 +82,7 @@ bot.on('message', function (msg) {
           }
 					}, 1000);
 				} else {
-					bot.sendMessage(chatId, message);
+					bot.sendMessage(chatId, 'final check');
 				}
 
 			} else {
