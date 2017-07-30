@@ -13,9 +13,6 @@ spec:
       containers:
       - name: susi-telegrambot
         image: aliayubkhan/susi_telegrambot:latest
-        env:
-        - name: telegramToken
-          value: "387216373:AAFQ0k2pX4JmpoERyUNEIQ5Yk0hW1h0as74"
         ports:
         - containerPort: 8080
           protocol: TCP
